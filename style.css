@@ -1,0 +1,178 @@
+/*
+Theme Name: Thema: Siop
+Theme URI: http://thema.cymru
+Author: Gwe Cambrian Web
+Author URI: http://cambrianweb.com
+Description: Thema - Thema Amlieithog a Hygyrch ar gyfer gwefannau amlieithog. A Multilingual and Accessible theme for Multilingual Websites.
+Version: 1.0.0
+Template: thema
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: thema
+Tags: blue, custom-background, responsive-layout
+*/
+
+
+body, button, input, select, textarea{
+  color:#1f1f1f;
+  background-color:#fff;
+  font-family:'Libre Baskerville', serif ;
+}
+p, ul>li{
+  color:#1f1f1f;
+  font-family:'Libre Baskerville', serif ;
+}
+a{
+  color:#1f1f1f;
+}
+
+/*Headings*/
+.entry-title{
+  font-size:3.5em;
+  margin:0px;
+}
+h1{
+  font-size:3em;
+  margin: 10px 0;
+}
+h2{
+  font-size:2.5em;
+  margin: 5px 0;
+}
+h3{
+  font-size:2em;
+  margin: 5px 0;
+}
+h4{
+  font-size:1.5em;
+  margin: 5px 0;
+}
+
+
+a:hover{
+  color:#696969;
+}
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    color: #5050A2;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#masthead{
+  background-color:#fff;
+  height:450px;
+  color:#5050A2;
+  -webkit-box-shadow: 0px 75px 133px -84px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 75px 133px -84px rgba(0,0,0,0.75);
+box-shadow: 0px 75px 133px -84px rgba(0,0,0,0.75);
+}
+.site-branding{
+  margin:0 0;
+  margin:0 auto;
+  float:none;
+  width:100%;
+  text-align:center;
+  color:#5050A2;
+}
+.site-branding .thema-logo-div{
+  float:none;
+  clear:both;
+  margin:0 auto;
+}
+
+.thema-language-switch .lang-item a {
+    border: 1px solid #5050A2;
+    border-radius: 25px;
+    color: #5050A2;
+    padding: 15px;
+    margin: 0px;
+    transition-property: background;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+}
+.thema-language-switch .lang-item a:hover {
+    padding: 15px;
+    color: #5050A2;
+    border-color: #8C8CE8;
+    background: #fff;
+}
+
+.entry-title a{
+  color:#5050A2
+}
+.cyfryngau-cymdeithasol {
+    float: none;
+    clear: both;
+    margin: 0 auto;
+    text-align:center;
+    width:100%;
+}
+.cyfryngau-cymdeithasol ul li a{
+  color:#5050A2;
+}
+.site-branding img.thema-logo {
+  float:none;
+  margin: 0px;
+  max-width:100px;
+}
+.site-description{
+  color:#5050A2;
+  text-align:center;
+  font-size:1.2em;
+}
+.site-title{
+  color:#5050A2;
+}
+.site-branding a{
+  color:#5050A2;
+}
+
+.main-navigation {
+    clear: both;
+    display: block;
+    float:none;
+    width: 100%;
+    height: 50px;
+    position: ;
+    bottom: 0px;
+    text-align: center;
+}
+
+.main-navigation a:hover{
+  color: #fff;;
+  background-color: #8383D4;
+}
+
+.main-navigation ul{
+
+  background-color: #fff;
+  vertical-align:
+  padding:20px 20px;
+  width:auto;
+}
+.main-navigation ul ul a{
+  color:#5050A2;
+}
+.main-navigation ul ul a:hover{
+  background-color:#8383D4;
+}
+.main-navigation ul ul{
+  background-color: #fff;
+  color: #5050A2;
+}
+.main-navigation{
+  background-color: #5050A2;
+}
+
+
+div#secondary {
+    border-left: 5px solid #5050A2;
+}
+
+.site-footer {
+    background: #5050A2;
+  }
+
+  .site-footer p, .site-footer a{
+    color:#fff;
+
+  }
